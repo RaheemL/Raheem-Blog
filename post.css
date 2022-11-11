@@ -1,3 +1,16 @@
 body {
-    background-color: aquamarine;
+  background-color: #ff00c1;
+}
+
+h1 {
+  color: #05ffa1;
+}
+
+button {
+  background-color: #00fff9;
+  color: #05ffa1;
+}
+
+p {
+  color: mintcream;
 }
