@@ -1,9 +1,13 @@
 body {
   background-color: #ff00c1;
+  background-image: url("vapor.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
-  color: #05ffa1;
+  color: ##00fff9;
+  text-align: center;
 }
 
 button {
@@ -12,5 +16,5 @@ button {
 }
 
 p {
-  color: #05ffa1;
+  color: #00fff9;
 }
