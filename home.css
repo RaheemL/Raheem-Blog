@@ -9,11 +9,15 @@ h1 {
   color: #300350;
   text-align: center;
   text-decoration: underline;
+  font-family: Monospace, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
 }
 
 button {
   color: #ff00c1;
   background-color: #00fff9;
+  font-family: Monospace, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .welcome {
@@ -25,5 +29,15 @@ button {
   font-family: "Segoe UI", Monospace, Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.navbar {
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
 .home-footer {
+  background-color: #00fff9;
 }
