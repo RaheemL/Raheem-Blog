@@ -12,6 +12,7 @@ h1 {
   font-family: Monospace, Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
   letter-spacing: 5px;
+  border: 5px double black;
 }
 
 button {
@@ -28,6 +29,7 @@ button {
   font-weight: bold;
   font-size: 600%;
   font-family: "Segoe UI", Monospace, Tahoma, Geneva, Verdana, sans-serif;
+  border: 5px double black;
 }
 
 .navbar {
@@ -41,4 +43,5 @@ li {
 
 .home-footer {
   background-color: #00fff9;
+  border: 5px double black;
 }
