@@ -1,9 +1,19 @@
 body {
-  background-color: #ff00c1;
+  background-color: antiquewhite;
+}
+
+.BlogHeader {
+  text-align: center;
+  border: 5px double black;
+}
+
+.navbar {
+  text-align: center;
+  list-style: none;
 }
 
 h1 {
-  color: #05ffa1;
+  color: black;
 }
 
 button {
@@ -12,5 +22,17 @@ button {
 }
 
 p {
-  color: #05ffa1;
+  color: black;
+}
+
+.AboutMe {
+  border: 5px double black;
+  text-align: left;
+}
+
+.AboutMePicture {
+}
+
+.Socials {
+  border: 5px double black;
 }
