@@ -13,11 +13,13 @@ h1 {
     sans-serif;
   letter-spacing: 5px;
   border: 5px double black;
+  width: 200px;
+  padding: 10px;
 }
 
 button {
-  color: #ff00c1;
-  background-color: #00fff9;
+  color: 
+  background-color: palevioletred;
   font-family: Monospace, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -42,6 +44,10 @@ li {
 }
 
 .home-footer {
-  background-color: #00fff9;
+  background-color: palevioletred;
   border: 5px double black;
+}
+
+footer p {
+  color: beige;
 }
