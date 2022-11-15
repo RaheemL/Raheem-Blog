@@ -1,12 +1,15 @@
 body {
-  background-color: antiquewhite;
+  background-image: url("blogpost.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
 }
 
 .BlogHeader {
   text-align: center;
-  border: 5px double black;
+  border: 5px double #ff00c1;
   width: 150px;
+  background-color: black;
 }
 
 .navbar {
@@ -17,36 +20,46 @@ li {
   list-style: none;
 }
 
-h1 {
-  color: black;
+h1,
+h2 {
+  color: #ff00c1;
 }
 
 button {
-  background-color: #00fff9;
-  color: #ff00c1;
+  background-color: #ff00c1;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+a {
+  color: black;
 }
 
 p {
   color: black;
+  color: #ff00c1;
 }
 
 .AboutMe {
-  border: 5px double black;
+  border: 5px double #ff00c1;
   text-align: left;
   padding: 5px;
   width: 50%;
+  background-color: black;
+  color: #ff00c1;
 }
 
 img {
-  border: 5px solid black;
+  border: 5px solid #ff00c1;
   border-radius: 50%;
   width: 20%;
   height: 20%;
 }
 
 .Socials {
-  border: 5px double black;
+  border: 5px double #ff00c1;
   width: 20%;
   padding: 10px;
   text-align: center;
+  background-color: black;
 }
