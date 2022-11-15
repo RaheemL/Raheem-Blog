@@ -5,10 +5,14 @@ body {
 .BlogHeader {
   text-align: center;
   border: 5px double black;
+  width: 150px;
 }
 
 .navbar {
   text-align: center;
+}
+
+li {
   list-style: none;
 }
 
@@ -28,11 +32,20 @@ p {
 .AboutMe {
   border: 5px double black;
   text-align: left;
+  padding: 5px;
+  width: 50%;
 }
 
-.AboutMePicture {
+img {
+  border: 5px solid black;
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
 }
 
 .Socials {
   border: 5px double black;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
 }
