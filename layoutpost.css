@@ -1,12 +1,9 @@
-/*Grid Container*/
+/*Flex Container*/
 .gridwrapper {
-  display: grid;
-  gap: 1.5 rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
 }
 
-/*Grid Components*/
+/*Flex Components*/
 
 .nav {
   background-color: aqua;
@@ -31,6 +28,7 @@
 .footer {
   background-color: blueviolet;
   border: 2px solid black;
+  grid: 3/-2;
 }
 
 img {
