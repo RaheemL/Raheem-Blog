@@ -1,0 +1,41 @@
+/*Grid Container*/
+.gridwrapper {
+  display: grid;
+  gap: 1.5 rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/*Grid Components*/
+
+.nav {
+  background-color: aqua;
+  border: 2px solid black;
+}
+
+.header {
+  background-color: antiquewhite;
+  border: 2px solid black;
+}
+
+.article {
+  background-color: green;
+  border: 2px solid black;
+}
+
+.picture {
+  background-color: blue;
+  border: 2px solid black;
+}
+
+.footer {
+  background-color: blueviolet;
+  border: 2px solid black;
+}
+
+img {
+  border: 5px solid #ff00c1;
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
