@@ -1,53 +1,72 @@
+* {
+  box-sizing: border-box;
+}
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
   background-image: url("vapor.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
+  font-family: "Courier New", Courier, monospace;
 }
-
-h1 {
-  color: #300350;
-  text-align: center;
-  text-decoration: underline;
-  font-family: Monospace, Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
-  letter-spacing: 5px;
-  border: 5px double black;
-  width: 200px;
-  padding: 10px;
-}
-
-button {
-  color: 
-  background-color: palevioletred;
-  font-family: Monospace, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.welcome {
-  color: #300350;
-  text-align: left;
-  width: 50%;
-  font-weight: bold;
-  font-size: 600%;
-  font-family: "Segoe UI", Monospace, Tahoma, Geneva, Verdana, sans-serif;
-  border: 5px double black;
-}
-
-.navbar {
-  text-align: center;
-  list-style: none;
+.nav {
+  flex: 1;
+  color: palevioletred;
 }
 
 li {
   list-style: none;
 }
 
-.home-footer {
+button {
   background-color: palevioletred;
-  border: 5px double black;
+  font-family: , "Courier New", Courier, monospace;
 }
 
-footer p {
-  color: beige;
+.main-head-foot {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  border: 2px solid black;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  border: 1px black solid;
+}
+.content > article {
+  flex: 4;
+  min-height: 60vh;
+  color: #300350;
+  text-align: left;
+  width: 100%;
+  font-weight: bold;
+  font-size: 300%;
+  font-family: "Segoe UI", Monospace, Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  font-size: large;
+}
+
+article p {
+  font-size: larger;
+}
+
+footer {
+  background-color: black;
+  color: burlywood;
+}
+
+header,
+footer {
+  height: 20vh;
+  border: 1px solid black;
+}
+header,
+footer,
+article,
+nav {
+  padding: 1em;
 }

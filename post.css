@@ -5,21 +5,6 @@ body {
   margin: 0;
 }
 
-.BlogHeader {
-  text-align: center;
-  border: 5px double #ff00c1;
-  width: 150px;
-  background-color: black;
-}
-
-.navbar {
-  text-align: center;
-}
-
-li {
-  list-style: none;
-}
-
 h1,
 h2 {
   color: #ff00c1;
@@ -31,22 +16,12 @@ button {
   margin: 5px;
 }
 
+p {
+  color: #ff00c1;
+}
+
 a {
   color: black;
-}
-
-p {
-  color: black;
-  color: #ff00c1;
-}
-
-.AboutMe {
-  border: 5px double #ff00c1;
-  text-align: left;
-  padding: 5px;
-  width: 50%;
-  background-color: black;
-  color: #ff00c1;
 }
 
 img {
@@ -56,10 +31,63 @@ img {
   height: 20%;
 }
 
-.Socials {
+/*Grid Container*/
+.gridwrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+}
+
+/*Grid Components*/
+
+.header {
+  text-align: center;
   border: 5px double #ff00c1;
-  width: 20%;
+  width: 80%;
+  height: 30%;
+  background-color: black;
+}
+
+.nav {
+  text-align: left;
+}
+
+.article {
+  border: 5px double #ff00c1;
+  text-align: left;
+  padding: 5px;
+  width: 90%;
+  height: 50%;
+  background-color: black;
+  color: #ff00c1;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.picture {
+  grid-column: 3;
+  grid-row: span 2;
+}
+
+.footer {
+  border: 5px double #ff00c1;
+  width: 100%;
   padding: 10px;
   text-align: center;
   background-color: black;
+  grid-column: span 3;
+  grid-row: 4;
+  text-align: center;
+}
+
+img {
+  border: 5px solid #ff00c1;
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+}
+
+li {
+  list-style: none;
 }
