@@ -1,6 +1,11 @@
+@import "paragraph.css";
+@import "header.css";
+@import "button.css";
+
 * {
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   min-height: 100vh;
@@ -12,18 +17,13 @@ body {
   background-color: black;
   font-family: "Courier New", Courier, monospace;
 }
+
 .nav {
   flex: 1;
-  color: palevioletred;
 }
 
 li {
   list-style: none;
-}
-
-button {
-  background-color: palevioletred;
-  font-family: , "Courier New", Courier, monospace;
 }
 
 .main-head-foot {
@@ -40,7 +40,6 @@ button {
 .content > article {
   flex: 4;
   min-height: 60vh;
-  color: #300350;
   text-align: left;
   width: 100%;
   font-weight: bold;
