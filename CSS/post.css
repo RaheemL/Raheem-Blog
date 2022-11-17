@@ -1,7 +1,7 @@
 /*Basic styling*/
 body {
   background-color: black;
-  background-image: url("blogimages/blogpost.jpg");
+  background-image: url("../images/blogpost.jpg");
   background-size: cover;
   margin: 0;
   font-family: "Courier New", Courier, monospace;

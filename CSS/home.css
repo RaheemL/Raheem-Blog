@@ -1,6 +1,6 @@
-@import "paragraph.css";
-@import "header.css";
-@import "button.css";
+@import "../css/paragraph.css";
+@import "../css/header.css";
+@import "../css/button.css";
 
 * {
   box-sizing: border-box;
@@ -11,10 +11,10 @@ body {
   min-height: 100vh;
   flex-direction: row;
   margin: 0;
-  background-image: url("blogimages/vapor.jpg");
+  background-image: url("../images/vapor.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
+  background-color: ;
   font-family: "Courier New", Courier, monospace;
 }
 
