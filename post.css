@@ -1,8 +1,11 @@
+/*Basic styling*/
 body {
+  background-color: black;
   background-image: url("blogpost.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1,
@@ -90,4 +93,58 @@ img {
 
 li {
   list-style: none;
+}
+
+/*This is my media queries*/
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .article {
+    height: 400px;
+  }
+
+  .footer {
+    height: 200px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .article {
+    height: 350px;
+  }
+
+  .header {
+    height: 100px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .header {
+    height: 170px;
+    width: 100px;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .article {
+    height: 500px;
+  }
+
+  .footer {
+    height: 220px;
+  }
 }
